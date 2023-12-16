@@ -1,0 +1,54 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: rgb(37, 39, 42);
+}
+.container {
+  margin: auto;
+  max-width: 500px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.playListContainer {
+  margin-bottom: 50px;
+}
+.track-item {
+  font-size: 18px;
+  color: goldenrod;
+  font-family: monospace;
+  padding: 7px;
+  border-bottom: 2px solid rgba(19, 18, 18, 0.775);
+  cursor: pointer;
+  user-select: none;
+}
+.currentTimeAndTotaltime {
+  color: goldenrod;
+  font-size: 18px;
+  font-family: monospace;
+  margin-bottom: 7px;
+}
+.prograssBar {
+  width: 500px;
+  height: 5px;
+  background-color: white;
+  border-radius: 5px;
+}
+.currentProgress {
+  width: 0px;
+  height: 100%;
+  background-color: dodgerblue;
+}
+#pause-btn {
+  display: none;
+}
+.controls {
+  margin: 10px 40px 10px 40px;
+  font-size: 25px;
+  color: goldenrod;
+  cursor: pointer;
+  user-select: none;
+}
