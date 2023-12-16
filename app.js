@@ -11,6 +11,10 @@ const nextButton = document.getElementById("next-btn");
 const backwardButton = document.getElementById("backward-btn");
 const tracks = [
   {
+    trackId: "music/GFatt-အဝေးပြေးလမ်းမ(OfficialMV)_942.m4a",
+    title: "GFatt-အဝေးပြေးလမ်းမ",
+  },
+  {
     trackId: "./music/GFatt+AmeraHpone-ရွက်လှေ(officiallyricsvideo)_749.m4a",
     title: "GFatt+AmeraHpone-ရွက်လှေ",
   },
@@ -26,11 +30,6 @@ const tracks = [
     trackId:
       "./music/SaiSaiKhamLeng-ရည်းစားစာ(LoveLetter)YeeZarSar[MusicVideo]_821.m4a",
     title: "SaiSaiKhamLeng- YeeZarSar",
-  },
-
-  {
-    trackId: "music/GFatt-အဝေးပြေးလမ်းမ(OfficialMV)_942.m4a",
-    title: "GFatt-အဝေးပြေးလမ်းမ",
   },
 
   {
